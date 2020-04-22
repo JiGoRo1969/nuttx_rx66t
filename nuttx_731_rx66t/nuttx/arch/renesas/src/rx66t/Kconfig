@@ -1,0 +1,35 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+if ARCH_RX66T
+comment "RX66T Configuration Options"
+
+menu "RX66T Peripheral Selections"
+
+config RX66T_SCI8
+	bool "SCI8"
+	default n
+	select SCI8_SERIALDRIVER
+config RX66T_SCI9
+	bool "SCI9"
+	default n
+	select SCI9_SERIALDRIVER
+config RX66T_SCI11
+	bool "SCI11"
+	default y
+	select SCI11_SERIALDRIVER
+	select SCI11_SERIAL_CONSOLE
+	select ARCH_HAVE_SERIAL_TERMIOS
+config RX66T_ICU
+	bool "ICU"
+	default y
+config RX66T_CMT0
+	bool "CMT0"
+	default y
+config RX66T_IRQ_GROUP
+	bool "IRQ_GROUP"
+	default y
+endmenu # RX66T Peripheral Selections
+endif

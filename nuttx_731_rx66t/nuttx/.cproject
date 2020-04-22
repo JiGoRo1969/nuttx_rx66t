@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1236863870">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1236863870" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" id="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1236863870" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1236863870.1426222882" name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.386900077" name="GCC for Renesas RX" superClass="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id">
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.cpuType.318605947" name="CPU Type" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.cpuType"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture.applicability.915359059" name="Architecture Applicability" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture.applicability"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture.1194280170" name="Architecture" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.dataEndian.260978703" name="Data Endian" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.dataEndian"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.registerFastInterrupt.2060126490" name="Registers reserved for fast interrupt" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.registerFastInterrupt"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.constantOperandMaxSize.111145643" name="Max size of constant operand values" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.constantOperandMaxSize"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.disableFPUInstructions.1757458587" name="Disable generation of RX hardware FPU instructions" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.disableFPUInstructions"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.generateRXas100output.400129169" name="Generate assembler output compatible with Renesas' AS100 assembler" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.generateRXas100output"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.saveRestoreAccReg.2094301523" name="Interrupt handler functions should preserve the accumulator register" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.saveRestoreAccReg"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.mpid.1300105378" name="Generate position independent code and data (-mpid)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.mpid"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.noStrings.2749137" name="Disable String Instructions" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.noStrings"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.mjsr.39083570" name="Use JSR instead of BSR for calls (-mjsr)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.mjsr"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.optimization.fdatasections.791515584" name="Data sections (-fdata-sections)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.optimization.fdatasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.renesas.cdt.managedbuild.gcc.core.targetPlatform.1495647104" isAbstract="false" osList="all" superClass="com.renesas.cdt.managedbuild.gcc.core.targetPlatform"/>
+							<builder id="com.renesas.cdt.managedbuild.gcc.core.builder.70144008" managedBuildOn="false" name="GCC for Renesas Builder.Default" superClass="com.renesas.cdt.managedbuild.gcc.core.builder"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.libgen.516921006" name="Library Generator" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.libgen"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.compiler.201875780" name="Compiler" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.compiler"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1035300717" name="Compiler CPP" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler">
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1774961049" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c"/>
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.1241964282" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.assembler.147762515" name="Assembler" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.assembler">
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.usepreprocessor.208453863" name="Use preprocessor" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.usepreprocessor" useByScannerDiscovery="false"/>
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.assembler.650667219" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.assembler"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.linker.1591043134" name="Linker" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.linker"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.linker.1009048571" name="Linker CPP" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.linker"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.objcopy.2127738614" name="Objcopy" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.objcopy"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.archiver.1389524492" name="Archiver" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.toolchainInfo"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="nuttx.null.1304194037" name="nuttx"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.541277648;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.541277648.283189275;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1673626679;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.1907673223">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.703775235;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.703775235.1436098098;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.17517056;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.79560752">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1063282411;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1063282411.1096679839;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.426671209;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.329411968">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1743019307;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1743019307.1572073240;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.108684963;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.256403099">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1236863870;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1236863870.1426222882;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1035300717;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1774961049">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1743019307;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1743019307.1572073240;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.108684963;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.1921721898">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1519671466;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1519671466.397697671;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1804136536;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.1201361718">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.703775235;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.703775235.1436098098;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.17517056;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.1935494476">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.541277648;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.541277648.283189275;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1673626679;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1943477050">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1063282411;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1063282411.1096679839;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.426671209;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.464383672">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1510174640;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1510174640.1326494174;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.426824095;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.41392262">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1367364299;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1367364299.1624808418;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1120787910;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.612076294">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1906592307;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1906592307.681423299;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.19692612;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.812379608">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1367364299;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1367364299.1624808418;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1120787910;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.580678750">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1601532246;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1601532246.724889746;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1085974051;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.1960680945">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.312433622;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.312433622.1020414322;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.715077331;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.1991563224">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.851220647;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.851220647.902718844;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1847410225;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.409651064">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.312433622;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.312433622.1020414322;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.715077331;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.808004273">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1592715731;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1592715731.1264177801;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.2094340121;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1299855163">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1525186799;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1525186799.1801700533;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1189998217;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.1884914536">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1331618526;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1331618526.2112748233;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1527074745;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.294802057">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1331618526;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1331618526.2112748233;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1527074745;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.191936029">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1510174640;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1510174640.1326494174;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.426824095;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1869584131">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1906592307;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1906592307.681423299;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.19692612;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.3544863">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.202735458;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.202735458.19418995;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.823578020;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1840499958">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1525186799;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1525186799.1801700533;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1189998217;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.2044341783">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1599220647;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1599220647.315011362;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.529288493;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.435011539">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1236863870;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1236863870.1426222882;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1035300717;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.1241964282">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1519671466;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1519671466.397697671;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1804136536;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.156912551">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1592715731;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1592715731.1264177801;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.2094340121;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.2021188754">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.202735458;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.202735458.19418995;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.823578020;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.689887780">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1601532246;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1601532246.724889746;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1085974051;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1054541372">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1599220647;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.1599220647.315011362;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.529288493;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1302243951">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.851220647;com.renesas.cdt.managedbuild.gcc.rx.toolchain.Id.851220647.902718844;com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.1847410225;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1280133102">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
